@@ -86,42 +86,4 @@
             }
         }
     }
-
-    /* mega menu css */
-    .mega-menu-submenu {
-        position: static !important;
-
-        .mega-menu {
-            flex-wrap: wrap;
-            transition: 0.5s;
-            left: 0;
-            display: none;
-            transition: none;
-            transform: translateX(0);
-            width: 100%;
-
-            .mega-menu-item {
-                padding: 30px 20px;
-                width: 100%;
-
-                a {
-                    padding: 10px 0;
-                    text-align: center;
-                    font-size: 18px;
-                }
-
-                span {
-                    margin-bottom: 16px;
-                    text-align: center;
-                    display: block;
-                    color: #fff;
-                    font-size: 18px;
-                }
-
-                i {
-                    margin-left: 5px;
-                }
-            }
-        }
-    }
 }
